@@ -1,0 +1,128 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+li.li {
+  padding-left: 50px;
+}
+ul.navbar-nav.mr-auto {
+  padding-left: 271px;
+}
+button.bg-danger.text-white.p-1 {
+  margin-left: -5px;
+  margin-top: 10px;
+}
+button.bg-success.text-white.p-1 {
+  margin-left: -2px;
+  margin-top: 10px;
+}
+.Login.text-danger {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.login.px-5 {
+  margin-left: 31px;
+}
+input#email {
+  margin-left: 12px;
+}
+input#passwoed {
+  margin-left: 12px;
+}
+input#email {
+  margin-left: 0px;
+}
+.card.text-center {
+  margin-left: 470px;
+  margin-top: 51px;
+  margin-right: 494px;
+}
+.updatecard-body {
+  width: 30%;
+  text-align: center;
+  margin-left: 428px;
+  margin-top: 37px;
+}
+.card.card-outline-secondary {
+  background-color: beige;
+}
+h3.mb-0 {
+  text-align: center;
+  background-color: #dc3545;
+}
+marquee {
+  font-size: -webkit-xxx-large;
+  font-weight: 900;
+}
+marquee {
+  font-size: -webkit-xxx-large;
+  font-weight: 900;
+  margin-top: 233px;
+}
+
+/* .border-red{
+  border:"2px solid red"
+} */
+/* nav.navbar.navbar-expand-lg.bg-dark.py-2.border-bottom.border-dark {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.col-12.col-md-9.col-lg-7.col-xl-6 {
+  margin-top: -73px;
+} */
+
+/* .form-outline.mb-4 {
+  position: relative;
+}
+pp {
+  vertical-align: middle;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+} */
+
+a {
+  margin-left: 59px;
+}
+
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
